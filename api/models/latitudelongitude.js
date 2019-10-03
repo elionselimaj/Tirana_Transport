@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const latitudelongitude = mongoose.Schema({
 
-    referenceID: String,
+    reference: String,
     rank : Number,
     latitude : String,
     longitude : String,
